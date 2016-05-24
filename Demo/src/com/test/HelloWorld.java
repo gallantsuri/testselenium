@@ -11,5 +11,6 @@ public interface HelloWorld {
 	// comment added is modified now!
 	// one more comment added
 	// one more time buddy!
+	// command line code...
 	@WebMethod String getHelloWorldAsString(String name);
 }
