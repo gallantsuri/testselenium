@@ -10,5 +10,6 @@ import javax.jws.soap.SOAPBinding.Style;
 public interface HelloWorld {
 	// comment added is modified now!
 	// one more comment added
+	// one more time buddy!
 	@WebMethod String getHelloWorldAsString(String name);
 }
