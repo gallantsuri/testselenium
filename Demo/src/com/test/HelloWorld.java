@@ -9,5 +9,6 @@ import javax.jws.soap.SOAPBinding.Style;
 @SOAPBinding(style = Style.RPC)
 public interface HelloWorld {
 	// comment added!
+	// one more comment added
 	@WebMethod String getHelloWorldAsString(String name);
 }
